@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+
+<html lang="eng">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" shrink-to-fit="no" />
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <meta name="author" content="majsterTOX" />
+  <title>Still Hungry?</title>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&amp;display=swap" as="style" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&amp;display=swap"
+    media="print" onload="this.media='all'" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet"
+    as="style" />
+  <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Montserrat:wght@400;700&display=swap"
+    rel="stylesheet" as="style" />
+
+  <link rel="stylesheet" href="{{ url_for(name='static', path='main.css') }}" type="text/css" as="style" />
+  <link rel="stylesheet" href="{{ url_for(name='static', path='fonts.css') }}" type="text/css" as="style" />
+ 
+  <script type="text/javascript" src="{{ url_for(name='static', path='script.js') }}" defer></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <a href="" target="_self">
+          <h2>63dumplings</h2>
+          <span>next level of food</span>
+        </a>
+      </div>
+      <ul class="menu">
+        <a href="" target="_self">
+          <li class="menu__item">Home</li>
+        </a>
+        <a href="#order-menu">
+          <li class="menu__item">Menu</li>
+        </a>
+        <a href="#aboutUs">
+          <li class="menu__item">About</li>
+        </a>
+        <a href="#order">
+          <li class="menu__item">Order</li>
+        </a>
+      </ul>
+    </nav>
+    <section>
+      <div id="welcome">
+        <span>Say goodbye to shit food</span>
+        <h1>Try the new level of Dumplings</h1>
+        <span>Tasteful, Healthy just Delicious</span>
+        <div class="transfer">
+          <a href="#order" class="transfer__button transfer__button--orderNow">Order Now
+          </a>
+          <a href="#aboutUs" class="transfer__button transfer__button--meetUs">
+            Meet chef
+          </a>
+        </div>
+      </div>
+    </section>
+  </header>
+  <main>
+    <section id="order-menu">
+      <h2>We serve</h2>
+      <ul>
+        <li>
+          <img
+          loading="lazy"
+            src="https://images.unsplash.com/photo-1638502521795-89107ac5e246?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+            alt="eat" />
+          <h4>Polish Warriors</h4>
+          <p>
+            The most famous Pierogi known from our loved grandmothers.
+          </p>
+        </li>
+        <li>
+          <img
+          loading="lazy"
+            src="https://i.pinimg.com/564x/d2/45/53/d2455348f7749a3fcd4a24f4bf75716c.jpg"
+            alt="eat" />
+          <h4>Spinach Bombs</h4>
+          <p>
+            Green trolls are roaming the city. Do you let them go unpunished?
+          </p>
+        </li>
+        <li>
+          <img
+          loading="lazy"
+            src="https://i.pinimg.com/564x/d5/bf/c4/d5bfc4a585e2b2bf13c808c39b50a42c.jpg"
+            alt="eat" />
+          <h4>Soup Dumplings</h4>
+          <p>
+            Can you eat soup with the main course at the same time? These guys will change your mind forever.
+          </p>
+        </li>
+        <li>
+          <img
+            loading="lazy"
+            src="https://i.pinimg.com/564x/c6/74/c0/c674c08eb4fc6af7419a41d8492436fb.jpg"
+            alt="eat" />
+          <h4>Forest Duel</h4>
+          <p>
+            Don't you know what to cook in Christmas? Meet Cabbage and Mushrooms closed in one cute package.
+          </p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="aboutUs">
+      <div>
+        <div class="description">
+          <h2>Flower, cheese and potatoes</h2>
+          <p>
+            63dumplings is small company which make traditional, but
+            extraordinary in their simpliciy dumplings. Our&apos;s biggest
+            attidute is the heart putted in process of making food, which is
+            missing nowadays. Before we entered to the Internet, we collect a
+            huge feedback. and positive opinions about our&apos;s craft. If
+            you are bored and you want something interesting try modern menu.
+          </p>
+        </div>
+        <figure>
+          <img
+            loading="lazy"
+            src="https://images.unsplash.com/photo-1589047133481-02b4a5327d89?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+            alt="our craft" />
+        </figure>
+      </div>
+    </section>
+
+    <section id="aboutDumplings">
+      <ul>
+        <li>
+          <div class="icon">
+            <i class="fa-solid fa-heart-pulse"></i>
+          </div>
+          <h4>Health</h4>
+          <p>
+            All ingredients come from local, trustworthy, ecologic retailers.
+          </p>
+        </li>
+        <li>
+          <div class="icon">
+            <i class="fa-solid fa-recycle"></i>
+          </div>
+          <h4>Recycle</h4>
+          <p>
+            Wrapping used to shipping dumplings is completely decomposed.
+          </p>
+        </li>
+        <li>
+          <div class="icon">
+            <i class="fa-solid fa-seedling"></i>
+          </div>
+          <h4>Ecologic</h4>
+          <p>
+            Entire process is devoid from harmful things for nature.
+          </p>
+        </li>
+        <li>
+          <div class="icon">
+            <i class="fa-solid fa-bolt"></i>
+          </div>
+          <h4>Tasteful</h4>
+          <p>
+            If you have the courage and try, you won't stop. I promise.
+          </p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="order">
+      <h3>Hungry? Don't wait</h3>
+      <form action="/checkout" method="post" class="order-form">
+        <div>
+          <label for="name"></label>
+          <input type="text" id="name" name="name" placeholder="tommy shelby" required>
+        </div>
+        <div>
+          <label for="email"></label>
+          <input type="email" id="email" name="email" placeholder="tommy.shelby@gmail.com" required>
+        </div>
+        <div>
+          <label for="phone"></label>
+          <input type="text" id="phone" name="phone" placeholder="+48 123 456 789" required>
+        </div>
+        <div>
+          <label for="quantity"></label>
+          <input type="number" id="quantity" name="quantity" placeholder="20" min="10" max="200" required>
+        </div>
+        <div>
+          <label for="type"></label>
+          <select name="type" id="type" required>
+              <option value="1">Polish Warriors</option>
+              <option value="2">Spinach Bombs</option>
+              <option value="3">Soup Dumplings</option>
+              <option value="4">Forest Duel</option>
+          </select>
+      </div>
+        <div>
+          <button type="submit" action="/checkout" id="checkout-button" method="post" onclick="grabUserData()">
+            <p id="btnText">ORDER</p>
+          </button>
+        </div>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <div class="website-links">
+      <ul>
+        <a href="/" target="_self">
+          <li class="website-links__item">Home</li>
+        </a>
+        <a href="#order-menu">
+          <li class="website-links__item">Menu</li>
+        </a>
+        <a href="#aboutUs">
+          <li class="website-links__item">About</li>
+        </a>
+        <a href="#order">
+          <li class="website-links__item">Order</li>
+        </a>
+      </ul>
+    </div>
+
+    <div class="copyright">
+      <p>
+        You have a question? 
+        Text us!
+      </p>
+      <p>
+        <a href="mailto:63dumplings@protonmail.com">
+          63dumplings@protonmail.com
+        </a>
+      </p>
+    </div>
+
+    <div class="social-media">
+      <div class="instagram">
+        <a href="https://www.instagram.com/63dumplings/" alt="instagram account" aria-label="instagram" target="_blank"
+          rel="noopener noreferrer">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

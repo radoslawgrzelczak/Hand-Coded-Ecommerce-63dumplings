@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Success</title>
+
+    <script defer>
+      window.onload = function success() {
+        let name = localStorage.getItem("name")
+        let quantity = localStorage.getItem("quantity")
+        let div = document.createElement("div")
+        div.innerHTML = `
+        <h1> Thank you so much ${name}!</h1>
+        <h1> You ordered ${quantity} dumplings!</h1>
+        <h1> Questions? Write us 63dumplings@protonmail.com</h1>
+        `
+        document.body.appendChild(div)
+      }
+    </script>
+  </head>
+  <body>
+  </body>
+</html>

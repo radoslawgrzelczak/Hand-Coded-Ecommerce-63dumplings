@@ -1,0 +1,27 @@
+body {
+    background-color: #fff7f7;
+    background-image: url("https://www.transparenttextures.com/patterns/hexellence.png");
+    display: grid;
+    place-items: center;
+    width: max(1000px, 100vw);
+    height: max(1000px, 100vh)
+}
+
+main {
+    min-width: 30vw;
+    padding: 1em;
+    background-color: white;
+    box-shadow: 1px 0px 13px 1px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 1px 0px 13px 1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 0px 13px 1px rgba(0, 0, 0, 0.75);
+    display: grid;
+    place-content: center;
+}
+h1 {
+    font-size: clamp(2.5rem, calc(1.42rem + 4.22vw), 4.43rem);
+    text-align: center;
+}
+
+h3 {
+    font-size: clamp(1.58rem, calc(1.42rem + 0.77vw), 1.97rem);
+}

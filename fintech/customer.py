@@ -1,12 +1,14 @@
 import stripe
 
 def valid_quantity_input(quantity: int):
-    if quantity > 200:
+    more_than_200 = quantity > 200
+    less_than_10 = quantity < 10
+
+    if more_than_200:
         quantity = 200
-    elif quantity < 10:
+    if less_than_10:
         quantity = 10
-    else:
-        quantity = 10
+
     return quantity
 
 def find_customer(email: str, name: str):

@@ -25,7 +25,7 @@ def place_order(name: str = Form(...),
                 quantity: int = Form(...)):
 
     quantity = valid_quantity_input(quantity)
-
+    
     try:
         cus_object = find_customer(email=email, name=name)
         cus_exist = bool(cus_object)
